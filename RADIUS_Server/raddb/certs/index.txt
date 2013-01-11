@@ -1,0 +1,2 @@
+V	120331233411Z		01	unknown	/C=FR/ST=Radius/O=Example Inc./CN=Example Server Certificate/emailAddress=admin@example.com
+V	130312140407Z		02	unknown	/C=UK/ST=Hants/O=Wireless Group 2/CN=Wireless Group 2 Certificate/emailAddress=wg2@example.com

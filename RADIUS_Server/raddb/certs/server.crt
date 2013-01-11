@@ -1,0 +1,74 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 2 (0x2)
+        Signature Algorithm: sha1WithRSAEncryption
+        Issuer: C=UK, ST=Hants, L=Southampton, O=Wireless Group 2/emailAddress=wg2@example.com, CN=Wireless Group 2 CA
+        Validity
+            Not Before: Jan 11 14:04:07 2013 GMT
+            Not After : Mar 12 14:04:07 2013 GMT
+        Subject: C=UK, ST=Hants, O=Wireless Group 2, CN=Wireless Group 2 Certificate/emailAddress=wg2@example.com
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (2048 bit)
+                Modulus:
+                    00:c7:52:ca:9e:a0:98:90:70:da:f9:f9:d0:b0:7d:
+                    b4:5e:40:15:32:82:19:c0:52:3e:fa:5f:08:73:e6:
+                    b7:97:9b:4f:ba:e9:76:ea:92:64:57:71:46:1f:f7:
+                    f5:67:b5:7c:ce:b7:32:ab:94:5d:1b:46:1f:64:ff:
+                    12:ad:e7:a1:f8:f2:45:42:2b:9d:73:4a:68:35:59:
+                    c6:a3:f4:f4:e1:24:3c:d7:42:9d:78:d5:9b:c8:10:
+                    ea:ac:36:05:c8:c5:d0:b4:48:2b:3f:d9:1a:48:fa:
+                    5f:fe:cd:ec:a2:13:77:51:0c:6f:d3:75:5c:18:db:
+                    97:74:37:9d:4d:2f:7d:82:26:c8:23:2d:a6:04:1f:
+                    c9:9e:2b:49:3e:1a:2f:66:40:c8:75:1a:33:64:5d:
+                    d3:99:f9:52:44:37:5f:f7:ff:87:ff:9f:bf:ba:ea:
+                    22:7e:1b:a7:3c:c4:1f:3b:3d:96:98:99:7b:1c:0b:
+                    ec:35:93:ef:f0:6a:ad:b9:0e:e7:66:8a:19:4d:a2:
+                    f1:bc:f5:f4:70:42:79:bb:21:46:e5:4e:8d:26:bf:
+                    65:1b:7a:32:89:d1:1f:70:9c:1d:a2:83:6b:c2:ef:
+                    39:02:de:8f:83:d5:af:6f:70:9f:44:7c:ee:e3:d0:
+                    92:c0:72:3b:e5:59:8d:6e:f8:32:c3:20:e1:82:3d:
+                    c1:9b
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Extended Key Usage: 
+                TLS Web Server Authentication
+    Signature Algorithm: sha1WithRSAEncryption
+        4b:f6:ca:f3:ae:f9:99:2d:86:a8:8a:2c:20:0c:ee:50:b1:6e:
+        63:d4:40:ab:68:8a:44:5c:9f:2c:49:cd:62:d6:ca:15:de:a8:
+        4d:a8:ba:b9:c8:fd:e2:6d:ff:84:4a:55:23:49:9a:4e:19:3c:
+        2b:ad:bc:29:c9:b8:06:4e:4d:73:24:51:46:d1:72:48:34:4c:
+        f5:b6:47:af:9c:71:90:28:76:3e:81:21:d7:89:b5:c5:cf:c0:
+        d8:51:bb:5b:cb:7b:d7:43:f1:04:41:b0:3d:61:6d:9a:5c:01:
+        c4:b7:6e:b2:2c:51:5c:12:aa:2b:23:3d:56:87:a6:21:5c:50:
+        9f:48:08:8f:65:1d:ff:a6:30:36:1e:0f:b2:9c:5e:20:c0:b8:
+        d3:3a:71:0e:9f:7c:54:b3:2d:b6:8a:15:4e:bf:14:06:a3:4e:
+        49:0a:6a:8a:f3:b1:28:b1:84:a6:90:23:f2:fe:74:2a:a2:f4:
+        66:f6:be:99:b1:8a:b4:48:bd:50:ba:ac:1a:23:bb:e9:eb:c0:
+        f9:96:b7:f7:33:e2:01:16:5e:42:ef:55:63:71:7f:30:e4:83:
+        36:62:4d:0c:0c:b2:c7:5a:72:ec:53:4a:f7:69:00:e2:a2:1b:
+        5a:9f:e1:25:db:f0:13:48:86:7d:69:f7:94:7c:a7:48:77:0a:
+        bb:d5:72:30
+-----BEGIN CERTIFICATE-----
+MIIDnjCCAoagAwIBAgIBAjANBgkqhkiG9w0BAQUFADCBjDELMAkGA1UEBhMCVUsx
+DjAMBgNVBAgTBUhhbnRzMRQwEgYDVQQHEwtTb3V0aGFtcHRvbjEZMBcGA1UEChMQ
+V2lyZWxlc3MgR3JvdXAgMjEeMBwGCSqGSIb3DQEJARYPd2cyQGV4YW1wbGUuY29t
+MRwwGgYDVQQDExNXaXJlbGVzcyBHcm91cCAyIENBMB4XDTEzMDExMTE0MDQwN1oX
+DTEzMDMxMjE0MDQwN1owfzELMAkGA1UEBhMCVUsxDjAMBgNVBAgTBUhhbnRzMRkw
+FwYDVQQKExBXaXJlbGVzcyBHcm91cCAyMSUwIwYDVQQDExxXaXJlbGVzcyBHcm91
+cCAyIENlcnRpZmljYXRlMR4wHAYJKoZIhvcNAQkBFg93ZzJAZXhhbXBsZS5jb20w
+ggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDHUsqeoJiQcNr5+dCwfbRe
+QBUyghnAUj76Xwhz5reXm0+66XbqkmRXcUYf9/VntXzOtzKrlF0bRh9k/xKt56H4
+8kVCK51zSmg1Wcaj9PThJDzXQp141ZvIEOqsNgXIxdC0SCs/2RpI+l/+zeyiE3dR
+DG/TdVwY25d0N51NL32CJsgjLaYEH8meK0k+Gi9mQMh1GjNkXdOZ+VJEN1/3/4f/
+n7+66iJ+G6c8xB87PZaYmXscC+w1k+/waq25DudmihlNovG89fRwQnm7IUblTo0m
+v2UbejKJ0R9wnB2ig2vC7zkC3o+D1a9vcJ9EfO7j0JLAcjvlWY1u+DLDIOGCPcGb
+AgMBAAGjFzAVMBMGA1UdJQQMMAoGCCsGAQUFBwMBMA0GCSqGSIb3DQEBBQUAA4IB
+AQBL9srzrvmZLYaoiiwgDO5QsW5j1ECraIpEXJ8sSc1i1soV3qhNqLq5yP3ibf+E
+SlUjSZpOGTwrrbwpybgGTk1zJFFG0XJINEz1tkevnHGQKHY+gSHXibXFz8DYUbtb
+y3vXQ/EEQbA9YW2aXAHEt26yLFFcEqorIz1Wh6YhXFCfSAiPZR3/pjA2Hg+ynF4g
+wLjTOnEOn3xUsy22ihVOvxQGo05JCmqK87EosYSmkCPy/nQqovRm9r6ZsYq0SL1Q
+uqwaI7vp68D5lrf3M+IBFl5C71VjcX8w5IM2Yk0MDLLHWnLsU0r3aQDiohtan+El
+2/ATSIZ9afeUfKdIdwq71XIw
+-----END CERTIFICATE-----

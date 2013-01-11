@@ -68,12 +68,21 @@
 #		Reply-Message = "Your account has been disabled."
 #
 
+TomB	Cleartext-Password := "TomBsPassword"
+	Reply-Message = "Hello %{User-Name}"
+
+
+TomG	Cleartext-Password := "TomGsPassword"
+	Reply-Message = "Hello %{User-Name}"
+
+ChrisO	Cleartext-Password := "ChrisOsPassword"
+	Reply-Message = "Hello %{User-Name}"
 #
 # This is a complete entry for "steve". Note that there is no Fall-Through
 # entry so that no DEFAULT entry will be used, and the user will NOT
 # get any attributes in addition to the ones listed here.
 #
-#steve	Cleartext-Password := "testing"
+#fred	Cleartext-Password := "bob"
 #	Service-Type = Framed-User,
 #	Framed-Protocol = PPP,
 #	Framed-IP-Address = 172.16.3.33,

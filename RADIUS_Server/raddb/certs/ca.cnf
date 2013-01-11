@@ -14,7 +14,7 @@ private_key		= $dir/ca.key
 RANDFILE		= $dir/.rand
 name_opt		= ca_default
 cert_opt		= ca_default
-default_days		= 365
+default_days		= 60
 default_crl_days	= 30
 default_md		= sha1
 preserve		= no
@@ -46,12 +46,12 @@ output_password		= whatever
 x509_extensions		= v3_ca
 
 [certificate_authority]
-countryName		= FR
-stateOrProvinceName	= Radius
-localityName		= Somewhere
-organizationName	= Example Inc.
-emailAddress		= admin@example.com
-commonName		= "Example Certificate Authority"
+countryName		= UK
+stateOrProvinceName	= Hants
+localityName		= Southampton
+organizationName	= Wireless Group 2
+emailAddress		= wg2@example.com
+commonName		= "Wireless Group 2 CA"
 
 [v3_ca]
 subjectKeyIdentifier	= hash
