@@ -4,12 +4,7 @@
 <3>Trying to associate with 00:18:0a:01:3f:3f (SSID='notthebees' freq=2462 MHz)
 <3>Associated with 00:18:0a:01:3f:3f
 <3>CTRL-EVENT-EAP-STARTED EAP authentication started
-<3>CTRL-EVENT-EAP-PROPOSED-METHOD vendor=0 method=4 -> NAK
-<3>CTRL-EVENT-EAP-PROPOSED-METHOD vendor=0 method=21
-<3>CTRL-EVENT-EAP-METHOD EAP vendor 0 method 21 (TTLS) selected
-<3>CTRL-EVENT-EAP-PEER-CERT depth=1 subject='/C=UK/ST=Hants/L=Southampton/O=Wireless Group 2/emailAddress=wg2@example.com/CN=Wireless Group 2 CA'
-<3>CTRL-EVENT-EAP-PEER-CERT depth=1 subject='/C=UK/ST=Hants/L=Southampton/O=Wireless Group 2/emailAddress=wg2@example.com/CN=Wireless Group 2 CA'
-<3>CTRL-EVENT-EAP-PEER-CERT depth=0 subject='/C=UK/ST=Hants/O=Wireless Group 2/CN=Wireless Group 2 Certificate/emailAddress=wg2@example.com'
+...
 <3>CTRL-EVENT-EAP-SUCCESS EAP authentication completed successfully
 <3>WPA: Key negotiation completed with 00:18:0a:01:3f:3f [PTK=CCMP GTK=CCMP]
 <3>CTRL-EVENT-CONNECTED - Connection to 00:18:0a:01:3f:3f completed (reauth) [id=0 id_str=]
@@ -19,12 +14,7 @@ OK
 <3>Trying to associate with 00:18:0a:01:3f:38 (SSID='notthebees' freq=2412 MHz)
 <3>Associated with 00:18:0a:01:3f:38
 <3>CTRL-EVENT-EAP-STARTED EAP authentication started
-<3>CTRL-EVENT-EAP-PROPOSED-METHOD vendor=0 method=4 -> NAK
-<3>CTRL-EVENT-EAP-PROPOSED-METHOD vendor=0 method=21
-<3>CTRL-EVENT-EAP-METHOD EAP vendor 0 method 21 (TTLS) selected
-<3>CTRL-EVENT-EAP-PEER-CERT depth=1 subject='/C=UK/ST=Hants/L=Southampton/O=Wireless Group 2/emailAddress=wg2@example.com/CN=Wireless Group 2 CA'
-<3>CTRL-EVENT-EAP-PEER-CERT depth=1 subject='/C=UK/ST=Hants/L=Southampton/O=Wireless Group 2/emailAddress=wg2@example.com/CN=Wireless Group 2 CA'
-<3>CTRL-EVENT-EAP-PEER-CERT depth=0 subject='/C=UK/ST=Hants/O=Wireless Group 2/CN=Wireless Group 2 Certificate/emailAddress=wg2@example.com'
+...
 <3>CTRL-EVENT-EAP-SUCCESS EAP authentication completed successfully
 <3>WPA: Key negotiation completed with 00:18:0a:01:3f:38 [PTK=CCMP GTK=CCMP]
 <3>CTRL-EVENT-CONNECTED - Connection to 00:18:0a:01:3f:38 completed (reauth) [id=0 id_str=]
