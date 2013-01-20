@@ -1,0 +1,10 @@
+wlan0: Trying to associate with 00:18:0a:01:3f:38 (SSID='notthebees' freq=2412 MHz)
+FT: Invalid group cipher (0)
+wlan0: Authentication with 00:18:0a:01:3f:38 timed out.
+wlan0: Trying to associate with 00:18:0a:01:3f:3f (SSID='notthebees' freq=2462 MHz)
+wlan0: Authentication with 00:18:0a:01:3f:3f timed out.
+wlan0: Trying to associate with 00:18:0a:01:3f:3f (SSID='notthebees' freq=2462 MHz)
+wlan0: Authentication with 00:18:0a:01:3f:3f timed out.
+wlan0: Trying to associate with 00:18:0a:01:3f:38 (SSID='notthebees' freq=2412 MHz)
+^Cwlan0: CTRL-EVENT-TERMINATING - signal 2 received
+
