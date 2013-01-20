@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 for i in range(1, 256):
-    template = """client vpn {{
+    template = """client vpn{number} {{
     ipaddr = 152.78.236.{number}
     secret = testing123
 
