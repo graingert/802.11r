@@ -1,0 +1,333 @@
+Configuration file: /var/run/hostapd-phy0.conf
+Using interface wlan0 with hwaddr 00:18:0a:01:3f:38 and ssid "notthebees"
+wlan0: RADIUS Authentication server 152.78.61.5:1812
+wlan0: STA 00:1d:e0:a2:3b:83 IEEE 802.11: authentication OK (open system)
+wlan0: STA 00:1d:e0:a2:3b:83 MLME: MLME-AUTHENTICATE.indication(00:1d:e0:a2:3b:83, OPEN_SYSTEM)
+wlan0: STA 00:1d:e0:a2:3b:83 MLME: MLME-DELETEKEYS.request(00:1d:e0:a2:3b:83)
+wlan0: STA 00:1d:e0:a2:3b:83 IEEE 802.11: authenticated
+wlan0: STA 00:1d:e0:a2:3b:83 IEEE 802.11: association OK (aid 1)
+wlan0: STA 00:1d:e0:a2:3b:83 IEEE 802.11: associated (aid 1)
+wlan0: STA 00:1d:e0:a2:3b:83 MLME: MLME-ASSOCIATE.indication(00:1d:e0:a2:3b:83)
+wlan0: STA 00:1d:e0:a2:3b:83 MLME: MLME-DELETEKEYS.request(00:1d:e0:a2:3b:83)
+wlan0: STA 00:1d:e0:a2:3b:83 WPA: event 1 notification
+wlan0: STA 00:1d:e0:a2:3b:83 IEEE 802.1X: start authentication
+wlan0: STA 00:1d:e0:a2:3b:83 WPA: start authentication
+wlan0: STA 00:1d:e0:a2:3b:83 IEEE 802.1X: unauthorizing port
+wlan0: CTRL-EVENT-EAP-STARTED 00:1d:e0:a2:3b:83
+wlan0: CTRL-EVENT-EAP-PROPOSED-METHOD vendor=0 method=1
+wlan0: STA 00:1d:e0:a2:3b:83 IEEE 802.1X: Sending EAP Packet (identifier 103)
+wlan0: STA 00:1d:e0:a2:3b:83 IEEE 802.1X: received EAP packet (code=2 id=103 len=9) from STA: EAP Response-Identity (1)
+wlan0: STA 00:1d:e0:a2:3b:83 IEEE 802.1X: STA identity 'anon'
+wlan0: RADIUS Sending RADIUS message to authentication server
+RADIUS message: code=1 (Access-Request) identifier=0 length=162
+   Attribute 1 (User-Name) length=6
+      Value: 'anon'
+   Attribute 32 (NAS-Identifier) length=16
+      Value: 'kanga-cso1g09e'
+   Attribute 30 (Called-Station-Id) length=30
+      Value: '00-18-0A-01-3F-38:notthebees'
+   Attribute 61 (NAS-Port-Type) length=6
+      Value: 19
+   Attribute 5 (NAS-Port) length=6
+      Value: 1
+   Attribute 31 (Calling-Station-Id) length=19
+      Value: '00-1D-E0-A2-3B-83'
+   Attribute 77 (Connect-Info) length=24
+      Value: 'CONNECT 54Mbps 802.11g'
+   Attribute 12 (Framed-MTU) length=6
+      Value: 1400
+   Attribute 79 (EAP-Message) length=11
+      Value: 02 67 00 09 01 61 6e 6f 6e
+   Attribute 80 (Message-Authenticator) length=18
+      Value: 57 20 2c 1d bc 74 c2 a6 d0 3a c1 92 0d 9e cc 4b
+wlan0: RADIUS Next RADIUS client retransmit in 3 seconds
+wlan0: RADIUS Received 80 bytes from RADIUS server
+wlan0: RADIUS Received RADIUS message
+RADIUS message: code=11 (Access-Challenge) identifier=0 length=80
+   Attribute 79 (EAP-Message) length=24
+      Value: 01 68 00 16 04 10 31 da dc 31 fc 06 f1 fe 2d f6 26 6b 11 5f 5f 65
+   Attribute 80 (Message-Authenticator) length=18
+      Value: d7 f3 e0 46 a6 0e b9 03 4f ad 25 df 31 62 0d 50
+   Attribute 24 (State) length=18
+      Value: 3b 66 43 b0 3b 0e 47 89 f6 36 58 de 1f 70 a1 be
+wlan0: STA 00:1d:e0:a2:3b:83 RADIUS: Received RADIUS packet matched with a pending request, round trip time 0.03 sec
+wlan0: STA 00:1d:e0:a2:3b:83 IEEE 802.1X: decapsulated EAP packet (code=1 id=104 len=22) from RADIUS server: EAP-Request-MD5 (4)
+wlan0: STA 00:1d:e0:a2:3b:83 IEEE 802.1X: Sending EAP Packet (identifier 104)
+wlan0: STA 00:1d:e0:a2:3b:83 IEEE 802.1X: received EAP packet (code=2 id=104 len=6) from STA: EAP Response-(null) (3)
+wlan0: RADIUS Sending RADIUS message to authentication server
+RADIUS message: code=1 (Access-Request) identifier=1 length=177
+   Attribute 1 (User-Name) length=6
+      Value: 'anon'
+   Attribute 32 (NAS-Identifier) length=16
+      Value: 'kanga-cso1g09e'
+   Attribute 30 (Called-Station-Id) length=30
+      Value: '00-18-0A-01-3F-38:notthebees'
+   Attribute 61 (NAS-Port-Type) length=6
+      Value: 19
+   Attribute 5 (NAS-Port) length=6
+      Value: 1
+   Attribute 31 (Calling-Station-Id) length=19
+      Value: '00-1D-E0-A2-3B-83'
+   Attribute 77 (Connect-Info) length=24
+      Value: 'CONNECT 54Mbps 802.11g'
+   Attribute 12 (Framed-MTU) length=6
+      Value: 1400
+   Attribute 79 (EAP-Message) length=8
+      Value: 02 68 00 06 03 15
+   Attribute 24 (State) length=18
+      Value: 3b 66 43 b0 3b 0e 47 89 f6 36 58 de 1f 70 a1 be
+   Attribute 80 (Message-Authenticator) length=18
+      Value: f4 68 4d 00 4b ba c1 eb 83 68 82 d7 89 0f 34 d7
+wlan0: RADIUS Next RADIUS client retransmit in 3 seconds
+wlan0: RADIUS Received 64 bytes from RADIUS server
+wlan0: RADIUS Received RADIUS message
+RADIUS message: code=11 (Access-Challenge) identifier=1 length=64
+   Attribute 79 (EAP-Message) length=8
+      Value: 01 69 00 06 15 20
+   Attribute 80 (Message-Authenticator) length=18
+      Value: 5c 55 96 81 ce 5e eb 75 53 87 d3 cb b2 d1 2e 8c
+   Attribute 24 (State) length=18
+      Value: 3b 66 43 b0 3a 0f 56 89 f6 36 58 de 1f 70 a1 be
+wlan0: STA 00:1d:e0:a2:3b:83 RADIUS: Received RADIUS packet matched with a pending request, round trip time 0.02 sec
+wlan0: STA 00:1d:e0:a2:3b:83 IEEE 802.1X: decapsulated EAP packet (code=1 id=105 len=6) from RADIUS server: EAP-Request-TTLS (21)
+wlan0: STA 00:1d:e0:a2:3b:83 IEEE 802.1X: Sending EAP Packet (identifier 105)
+wlan0: STA 00:1d:e0:a2:3b:83 IEEE 802.1X: received EAP packet (code=2 id=105 len=227) from STA: EAP Response-TTLS (21)
+wlan0: RADIUS Sending RADIUS message to authentication server
+RADIUS message: code=1 (Access-Request) identifier=2 length=398
+   Attribute 1 (User-Name) length=6
+      Value: 'anon'
+   Attribute 32 (NAS-Identifier) length=16
+      Value: 'kanga-cso1g09e'
+   Attribute 30 (Called-Station-Id) length=30
+      Value: '00-18-0A-01-3F-38:notthebees'
+   Attribute 61 (NAS-Port-Type) length=6
+      Value: 19
+   Attribute 5 (NAS-Port) length=6
+      Value: 1
+   Attribute 31 (Calling-Station-Id) length=19
+      Value: '00-1D-E0-A2-3B-83'
+   Attribute 77 (Connect-Info) length=24
+      Value: 'CONNECT 54Mbps 802.11g'
+   Attribute 12 (Framed-MTU) length=6
+      Value: 1400
+   Attribute 79 (EAP-Message) length=229
+      Value: 02 69 00 e3 15 00 16 03 01 00 d8 01 00 00 d4 03 01 50 fc 2c ba c5 00 c4 13 35 d6 77 77 22 24 0a f9 45 ea db f2 5f 77 5f 05 5a 0d c0 51 35 5b 22 6d 00 00 66 c0 14 c0 0a c0 22 c0 21 00 39 00 38 00 88 00 87 c0 0f c0 05 00 35 00 84 c0 12 c0 08 c0 1c c0 1b 00 16 00 13 c0 0d c0 03 00 0a c0 13 c0 09 c0 1f c0 1e 00 33 00 32 00 9a 00 99 00 45 00 44 c0 0e c0 04 00 2f 00 96 00 41 c0 11 c0 07 c0 0c c0 02 00 05 00 04 00 15 00 12 00 09 00 14 00 11 00 08 00 06 00 03 00 ff 01 00 00 45 00 0b 00 04 03 00 01 02 00 0a 00 34 00 32 00 0e 00 0d 00 19 00 0b 00 0c 00 18 00 09 00 0a 00 16 00 17 00 08 00 06 00 07 00 14 00 15 00 04 00 05 00 12 00 13 00 01 00 02 00 03 00 0f 00 10 00 11 00 0f 00 01 01
+   Attribute 24 (State) length=18
+      Value: 3b 66 43 b0 3a 0f 56 89 f6 36 58 de 1f 70 a1 be
+   Attribute 80 (Message-Authenticator) length=18
+      Value: 44 9f 76 34 5b 6a 9a 31 8a 20 52 08 2b df d3 88
+wlan0: RADIUS Next RADIUS client retransmit in 3 seconds
+wlan0: RADIUS Received 1090 bytes from RADIUS server
+wlan0: RADIUS Received RADIUS message
+RADIUS message: code=11 (Access-Challenge) identifier=2 length=1090
+   Attribute 79 (EAP-Message) length=255
+      Value: 01 6a 04 00 15 c0 00 00 0a 9b 16 03 01 00 31 02 00 00 2d 03 01 50 fc 2c bb 7e 2c 91 be 37 70 58 25 26 aa a4 4a b7 c8 63 26 ae 92 e5 b3 1f 6c c7 79 ff 2a 2c 86 00 00 39 00 00 05 ff 01 00 01 00 16 03 01 08 45 0b 00 08 41 00 08 3e 00 03 a2 30 82 03 9e 30 82 02 86 a0 03 02 01 02 02 01 02 30 0d 06 09 2a 86 48 86 f7 0d 01 01 05 05 00 30 81 8c 31 0b 30 09 06 03 55 04 06 13 02 55 4b 31 0e 30 0c 06 03 55 04 08 13 05 48 61 6e 74 73 31 14 30 12 06 03 55 04 07 13 0b 53 6f 75 74 68 61 6d 70 74 6f 6e 31 19 30 17 06 03 55 04 0a 13 10 57 69 72 65 6c 65 73 73 20 47 72 6f 75 70 20 32 31 1e 30 1c 06 09 2a 86 48 86 f7 0d 01 09 01 16 0f 77 67 32 40 65 78 61 6d 70 6c 65 2e 63 6f 6d 31 1c 30 1a 06 03 55 04 03 13 13 57 69 72 65 6c 65 73 73 20 47 72 6f 75 70 20 32 20 43 41
+   Attribute 79 (EAP-Message) length=255
+      Value: 30 1e 17 0d 31 33 30 31 31 31 31 34 30 34 30 37 5a 17 0d 31 33 30 33 31 32 31 34 30 34 30 37 5a 30 7f 31 0b 30 09 06 03 55 04 06 13 02 55 4b 31 0e 30 0c 06 03 55 04 08 13 05 48 61 6e 74 73 31 19 30 17 06 03 55 04 0a 13 10 57 69 72 65 6c 65 73 73 20 47 72 6f 75 70 20 32 31 25 30 23 06 03 55 04 03 13 1c 57 69 72 65 6c 65 73 73 20 47 72 6f 75 70 20 32 20 43 65 72 74 69 66 69 63 61 74 65 31 1e 30 1c 06 09 2a 86 48 86 f7 0d 01 09 01 16 0f 77 67 32 40 65 78 61 6d 70 6c 65 2e 63 6f 6d 30 82 01 22 30 0d 06 09 2a 86 48 86 f7 0d 01 01 01 05 00 03 82 01 0f 00 30 82 01 0a 02 82 01 01 00 c7 52 ca 9e a0 98 90 70 da f9 f9 d0 b0 7d b4 5e 40 15 32 82 19 c0 52 3e fa 5f 08 73 e6 b7 97 9b 4f ba e9 76 ea 92 64 57 71 46 1f f7 f5 67 b5 7c ce b7 32 ab 94 5d 1b 46 1f 64 ff
+   Attribute 79 (EAP-Message) length=255
+      Value: 12 ad e7 a1 f8 f2 45 42 2b 9d 73 4a 68 35 59 c6 a3 f4 f4 e1 24 3c d7 42 9d 78 d5 9b c8 10 ea ac 36 05 c8 c5 d0 b4 48 2b 3f d9 1a 48 fa 5f fe cd ec a2 13 77 51 0c 6f d3 75 5c 18 db 97 74 37 9d 4d 2f 7d 82 26 c8 23 2d a6 04 1f c9 9e 2b 49 3e 1a 2f 66 40 c8 75 1a 33 64 5d d3 99 f9 52 44 37 5f f7 ff 87 ff 9f bf ba ea 22 7e 1b a7 3c c4 1f 3b 3d 96 98 99 7b 1c 0b ec 35 93 ef f0 6a ad b9 0e e7 66 8a 19 4d a2 f1 bc f5 f4 70 42 79 bb 21 46 e5 4e 8d 26 bf 65 1b 7a 32 89 d1 1f 70 9c 1d a2 83 6b c2 ef 39 02 de 8f 83 d5 af 6f 70 9f 44 7c ee e3 d0 92 c0 72 3b e5 59 8d 6e f8 32 c3 20 e1 82 3d c1 9b 02 03 01 00 01 a3 17 30 15 30 13 06 03 55 1d 25 04 0c 30 0a 06 08 2b 06 01 05 05 07 03 01 30 0d 06 09 2a 86 48 86 f7 0d 01 01 05 05 00 03 82 01 01 00 4b f6 ca f3 ae f9
+   Attribute 79 (EAP-Message) length=255
+      Value: 99 2d 86 a8 8a 2c 20 0c ee 50 b1 6e 63 d4 40 ab 68 8a 44 5c 9f 2c 49 cd 62 d6 ca 15 de a8 4d a8 ba b9 c8 fd e2 6d ff 84 4a 55 23 49 9a 4e 19 3c 2b ad bc 29 c9 b8 06 4e 4d 73 24 51 46 d1 72 48 34 4c f5 b6 47 af 9c 71 90 28 76 3e 81 21 d7 89 b5 c5 cf c0 d8 51 bb 5b cb 7b d7 43 f1 04 41 b0 3d 61 6d 9a 5c 01 c4 b7 6e b2 2c 51 5c 12 aa 2b 23 3d 56 87 a6 21 5c 50 9f 48 08 8f 65 1d ff a6 30 36 1e 0f b2 9c 5e 20 c0 b8 d3 3a 71 0e 9f 7c 54 b3 2d b6 8a 15 4e bf 14 06 a3 4e 49 0a 6a 8a f3 b1 28 b1 84 a6 90 23 f2 fe 74 2a a2 f4 66 f6 be 99 b1 8a b4 48 bd 50 ba ac 1a 23 bb e9 eb c0 f9 96 b7 f7 33 e2 01 16 5e 42 ef 55 63 71 7f 30 e4 83 36 62 4d 0c 0c b2 c7 5a 72 ec 53 4a f7 69 00 e2 a2 1b 5a 9f e1 25 db f0 13 48 86 7d 69 f7 94 7c a7 48 77 0a bb d5 72 30 00 04 96
+   Attribute 79 (EAP-Message) length=14
+      Value: 30 82 04 92 30 82 03 7a a0 03 02 01
+   Attribute 80 (Message-Authenticator) length=18
+      Value: 69 ee 28 fb dc 86 0f f7 94 1f 13 c5 aa b5 e9 71
+   Attribute 24 (State) length=18
+      Value: 3b 66 43 b0 39 0c 56 89 f6 36 58 de 1f 70 a1 be
+wlan0: STA 00:1d:e0:a2:3b:83 RADIUS: Received RADIUS packet matched with a pending request, round trip time 0.06 sec
+wlan0: STA 00:1d:e0:a2:3b:83 IEEE 802.1X: decapsulated EAP packet (code=1 id=106 len=1024) from RADIUS server: EAP-Request-TTLS (21)
+wlan0: STA 00:1d:e0:a2:3b:83 IEEE 802.1X: Sending EAP Packet (identifier 106)
+wlan0: STA 00:1d:e0:a2:3b:83 IEEE 802.1X: received EAP packet (code=2 id=106 len=6) from STA: EAP Response-TTLS (21)
+wlan0: RADIUS Sending RADIUS message to authentication server
+RADIUS message: code=1 (Access-Request) identifier=3 length=177
+   Attribute 1 (User-Name) length=6
+      Value: 'anon'
+   Attribute 32 (NAS-Identifier) length=16
+      Value: 'kanga-cso1g09e'
+   Attribute 30 (Called-Station-Id) length=30
+      Value: '00-18-0A-01-3F-38:notthebees'
+   Attribute 61 (NAS-Port-Type) length=6
+      Value: 19
+   Attribute 5 (NAS-Port) length=6
+      Value: 1
+   Attribute 31 (Calling-Station-Id) length=19
+      Value: '00-1D-E0-A2-3B-83'
+   Attribute 77 (Connect-Info) length=24
+      Value: 'CONNECT 54Mbps 802.11g'
+   Attribute 12 (Framed-MTU) length=6
+      Value: 1400
+   Attribute 79 (EAP-Message) length=8
+      Value: 02 6a 00 06 15 00
+   Attribute 24 (State) length=18
+      Value: 3b 66 43 b0 39 0c 56 89 f6 36 58 de 1f 70 a1 be
+   Attribute 80 (Message-Authenticator) length=18
+      Value: 71 25 e2 38 37 48 a9 a6 c9 ff 1e ba 4b 4e ff 82
+wlan0: RADIUS Next RADIUS client retransmit in 3 seconds
+wlan0: RADIUS Received 1090 bytes from RADIUS server
+wlan0: RADIUS Received RADIUS message
+RADIUS message: code=11 (Access-Challenge) identifier=3 length=1090
+   Attribute 79 (EAP-Message) length=255
+      Value: 01 6b 04 00 15 c0 00 00 0a 9b 02 02 09 00 d6 a8 40 9c c7 46 99 31 30 0d 06 09 2a 86 48 86 f7 0d 01 01 05 05 00 30 81 8c 31 0b 30 09 06 03 55 04 06 13 02 55 4b 31 0e 30 0c 06 03 55 04 08 13 05 48 61 6e 74 73 31 14 30 12 06 03 55 04 07 13 0b 53 6f 75 74 68 61 6d 70 74 6f 6e 31 19 30 17 06 03 55 04 0a 13 10 57 69 72 65 6c 65 73 73 20 47 72 6f 75 70 20 32 31 1e 30 1c 06 09 2a 86 48 86 f7 0d 01 09 01 16 0f 77 67 32 40 65 78 61 6d 70 6c 65 2e 63 6f 6d 31 1c 30 1a 06 03 55 04 03 13 13 57 69 72 65 6c 65 73 73 20 47 72 6f 75 70 20 32 20 43 41 30 1e 17 0d 31 33 30 31 31 31 31 34 30 34 30 37 5a 17 0d 31 33 30 33 31 32 31 34 30 34 30 37 5a 30 81 8c 31 0b 30 09 06 03 55 04 06 13 02 55 4b 31 0e 30 0c 06 03 55 04 08 13 05 48 61 6e 74 73 31 14 30 12 06 03 55 04 07
+   Attribute 79 (EAP-Message) length=255
+      Value: 13 0b 53 6f 75 74 68 61 6d 70 74 6f 6e 31 19 30 17 06 03 55 04 0a 13 10 57 69 72 65 6c 65 73 73 20 47 72 6f 75 70 20 32 31 1e 30 1c 06 09 2a 86 48 86 f7 0d 01 09 01 16 0f 77 67 32 40 65 78 61 6d 70 6c 65 2e 63 6f 6d 31 1c 30 1a 06 03 55 04 03 13 13 57 69 72 65 6c 65 73 73 20 47 72 6f 75 70 20 32 20 43 41 30 82 01 22 30 0d 06 09 2a 86 48 86 f7 0d 01 01 01 05 00 03 82 01 0f 00 30 82 01 0a 02 82 01 01 00 d6 bb ea 61 04 aa 57 7d ad fb 8e bc fb b8 a3 34 36 b5 ce 76 82 85 b2 fc cb 64 8c 5e 4d 33 53 2a 8f db 49 74 05 e7 51 a6 ec bf 09 de 7e e6 55 13 65 ca b6 da 3a 07 ca f8 79 79 99 0b 71 86 76 0b 33 cd e5 fb c5 d4 8e 81 ae ff 48 ee b0 c7 88 4d 5d 9a 79 07 ba 7e 4e 63 6f 27 38 53 23 32 e1 86 d4 89 14 94 55 d8 09 da 20 29 05 69 a5 86 20 0b a5 de 32 51 bf f6
+   Attribute 79 (EAP-Message) length=255
+      Value: fa 0e 30 c9 5c 25 ea 3d a3 63 9c 4b 43 d6 67 33 1e e6 c7 65 58 d3 e0 ce b6 5d 1b 8c 9a 7e 1f 03 4c 1f 1b aa 4b 85 89 d4 4e 58 ea b4 ad 02 70 ee ac dc 2e dc 57 40 20 5d 77 fb c5 48 a0 a7 f6 c4 4f ad a1 83 cf 21 d7 74 25 15 65 3d 16 bf b7 9a 7d f2 54 23 b8 5d 69 73 e2 5c 94 42 39 2b 7f 52 41 1b 34 50 6a bc 46 01 eb 06 d5 93 76 38 ec 72 71 cd 6a 8f 13 57 30 af d6 61 0d 49 97 d9 54 5b 83 37 c5 7c 0c 97 83 0a b8 b7 02 03 01 00 01 a3 81 f4 30 81 f1 30 1d 06 03 55 1d 0e 04 16 04 14 42 95 e8 08 b0 50 5c 06 73 b2 0a d3 7c 3c 17 2d c1 81 d4 c3 30 81 c1 06 03 55 1d 23 04 81 b9 30 81 b6 80 14 42 95 e8 08 b0 50 5c 06 73 b2 0a d3 7c 3c 17 2d c1 81 d4 c3 a1 81 92 a4 81 8f 30 81 8c 31 0b 30 09 06 03 55 04 06 13 02 55 4b 31 0e 30 0c 06 03 55 04 08 13 05 48 61 6e 74
+   Attribute 79 (EAP-Message) length=255
+      Value: 73 31 14 30 12 06 03 55 04 07 13 0b 53 6f 75 74 68 61 6d 70 74 6f 6e 31 19 30 17 06 03 55 04 0a 13 10 57 69 72 65 6c 65 73 73 20 47 72 6f 75 70 20 32 31 1e 30 1c 06 09 2a 86 48 86 f7 0d 01 09 01 16 0f 77 67 32 40 65 78 61 6d 70 6c 65 2e 63 6f 6d 31 1c 30 1a 06 03 55 04 03 13 13 57 69 72 65 6c 65 73 73 20 47 72 6f 75 70 20 32 20 43 41 82 09 00 d6 a8 40 9c c7 46 99 31 30 0c 06 03 55 1d 13 04 05 30 03 01 01 ff 30 0d 06 09 2a 86 48 86 f7 0d 01 01 05 05 00 03 82 01 01 00 ca 8c 4f ef 01 b0 3e cf c7 b0 58 69 f1 26 bb d9 d1 4c cc 27 c1 72 92 25 ff 6a b8 16 a3 b5 8b b2 e5 8c 72 93 fa c5 c5 5d dd 3d a3 7f 82 30 51 5e ce 1d 4c 5d 86 9f 16 82 b0 3a 03 59 d0 8d a2 f8 ed 84 8d 4f d7 8a fc 01 47 7e 8d 21 39 e6 2d d0 9b 50 53 22 6c 53 de 3f 86 7f 09 3f 8f 17 bf 6d
+   Attribute 79 (EAP-Message) length=14
+      Value: 33 09 7f 9a 5f ae 19 8a 62 d8 4f 9a
+   Attribute 80 (Message-Authenticator) length=18
+      Value: 0c d6 49 b7 d5 51 89 ee 75 63 6a de 38 d1 ef 51
+   Attribute 24 (State) length=18
+      Value: 3b 66 43 b0 38 0d 56 89 f6 36 58 de 1f 70 a1 be
+wlan0: STA 00:1d:e0:a2:3b:83 RADIUS: Received RADIUS packet matched with a pending request, round trip time 0.03 sec
+wlan0: STA 00:1d:e0:a2:3b:83 IEEE 802.1X: decapsulated EAP packet (code=1 id=107 len=1024) from RADIUS server: EAP-Request-TTLS (21)
+wlan0: STA 00:1d:e0:a2:3b:83 IEEE 802.1X: Sending EAP Packet (identifier 107)
+wlan0: STA 00:1d:e0:a2:3b:83 IEEE 802.1X: received EAP packet (code=2 id=107 len=6) from STA: EAP Response-TTLS (21)
+wlan0: RADIUS Sending RADIUS message to authentication server
+RADIUS message: code=1 (Access-Request) identifier=4 length=177
+   Attribute 1 (User-Name) length=6
+      Value: 'anon'
+   Attribute 32 (NAS-Identifier) length=16
+      Value: 'kanga-cso1g09e'
+   Attribute 30 (Called-Station-Id) length=30
+      Value: '00-18-0A-01-3F-38:notthebees'
+   Attribute 61 (NAS-Port-Type) length=6
+      Value: 19
+   Attribute 5 (NAS-Port) length=6
+      Value: 1
+   Attribute 31 (Calling-Station-Id) length=19
+      Value: '00-1D-E0-A2-3B-83'
+   Attribute 77 (Connect-Info) length=24
+      Value: 'CONNECT 54Mbps 802.11g'
+   Attribute 12 (Framed-MTU) length=6
+      Value: 1400
+   Attribute 79 (EAP-Message) length=8
+      Value: 02 6b 00 06 15 00
+   Attribute 24 (State) length=18
+      Value: 3b 66 43 b0 38 0d 56 89 f6 36 58 de 1f 70 a1 be
+   Attribute 80 (Message-Authenticator) length=18
+      Value: 2e 9e d1 ab c0 aa 7a 0d 3b 8b 50 ed 7a 90 d0 4d
+wlan0: RADIUS Next RADIUS client retransmit in 3 seconds
+wlan0: RADIUS Received 759 bytes from RADIUS server
+wlan0: RADIUS Received RADIUS message
+RADIUS message: code=11 (Access-Challenge) identifier=4 length=759
+   Attribute 79 (EAP-Message) length=255
+      Value: 01 6c 02 b9 15 80 00 00 0a 9b 89 bd c8 a6 da 5f 6c c0 b3 1f 76 9b cb 08 da fa 6d 0b b4 90 97 5b 50 3a 6d 37 b7 c0 35 e7 ce 13 f9 e6 5e d2 5a 5c 27 82 6e 6f 4d 0a 7c 45 50 34 9f 6b 8d d9 c8 c1 8e f9 ac d5 4d 19 59 e1 36 d5 7a db 7c 61 9d 53 ca bf ff 5c 62 18 ad c8 5b d5 35 d5 21 ac 03 6e 83 af 90 3d cf 4b 29 47 f7 d4 84 ee 47 01 11 fa 7e 18 dc b6 53 fc 87 76 a0 51 60 d3 29 91 62 35 07 08 b0 5f e4 30 1f b5 73 cb 1d b2 72 bb 33 b1 5c c2 ec c6 a6 17 fe 74 e6 0c 08 4c 2e 12 16 03 01 02 0d 0c 00 02 09 00 80 a6 02 a3 2b 61 35 28 29 83 5c 72 d9 b5 27 72 5e a2 1e 26 bc 49 f3 9e 90 64 da c7 11 24 be f5 04 19 38 24 76 6c f1 1a 25 a4 be 46 b1 f5 77 d5 19 e6 d6 66 63 fb 17 f8 c2 e9 4d d8 9c 9c 06 57 e6 6a ba 8c 32 cd f6 ca b6 93 6b 6b bd 3b 50 63 4b 44 37 76 2d
+   Attribute 79 (EAP-Message) length=255
+      Value: e9 b6 8c 6a ab 21 1d 51 84 02 f6 db 67 07 b6 44 c6 3b 1d 90 21 36 e1 42 cc cb 19 3d 9a 96 34 51 73 70 db d1 a6 58 92 c6 4c ea 91 2b 00 01 02 00 80 17 6e ae 77 a7 cc d1 be 34 58 45 74 5b c4 1e 4e 2a ae 13 a6 b7 c4 55 f6 40 9c a0 51 16 a9 92 1f f3 64 8a 27 7f b8 5a 85 2b 57 ca e3 61 8a 83 18 31 e1 71 9b 31 65 13 9f c5 2c e9 ab 33 ea 53 e0 1a 2f df a0 7f 68 63 47 eb 28 c7 fc 77 2d f2 39 ae 79 7e 9d 21 fe 15 37 ae c6 c4 62 a5 5e ff a5 f2 bc ca 1e 74 50 9d 76 2f 48 d6 09 e7 d8 28 7c 04 7e a0 9c b4 e8 86 66 fd 42 68 16 35 3d d9 03 01 00 59 d6 f5 ae 38 00 26 52 f6 7d 03 13 31 c5 64 e5 2e 1b 0d f9 9e cd c4 7a c9 b1 24 3c f0 9f f0 59 32 56 85 a3 2e 15 65 71 cb fb 86 b3 d0 d5 6c fa f7 e6 eb ab da 55 ab 1a bd 9d 36 bd 67 1c c7 b8 39 63 15 a8 74 95 49 61 80 11
+   Attribute 79 (EAP-Message) length=193
+      Value: 38 44 37 95 93 9e 8d 30 bc e7 f2 94 36 d1 2d f7 9c 1b eb e6 e6 2c 7a 2c 90 43 39 35 64 ac 27 78 ce dc 51 fe 57 0b 04 ff 76 ab 77 54 90 72 38 ab 47 c0 05 7e 3e 8a dc 61 a6 73 30 3b 97 03 99 b8 5d 12 79 a5 e1 71 c3 fc d1 2c bb 1a 33 d6 23 8c e0 32 00 d7 1f b4 aa cd 28 1b b7 48 fb 5a 0e b0 02 c8 e5 a3 c7 2e 6c e7 35 6a 5f 17 05 bc fe 9c 44 bd 40 da be dc 4a 2c 3f ac 07 28 27 3f d6 3a 2e 1c 5d 6a fc 96 fc 99 2e df d3 07 ce 32 0c 23 b7 e2 cf df 9a ed 75 81 ea 7f cf dc 1b e1 35 ac f8 bf e4 a8 1b bf 01 25 e0 9e 42 8b 51 14 8d 69 60 ef fb f3 b0 dd 16 03 01 00 04 0e 00 00 00
+   Attribute 80 (Message-Authenticator) length=18
+      Value: 93 91 57 25 a0 27 f8 1e 62 0a 5f cd fa c1 38 a5
+   Attribute 24 (State) length=18
+      Value: 3b 66 43 b0 3f 0a 56 89 f6 36 58 de 1f 70 a1 be
+wlan0: STA 00:1d:e0:a2:3b:83 RADIUS: Received RADIUS packet matched with a pending request, round trip time 0.03 sec
+wlan0: STA 00:1d:e0:a2:3b:83 IEEE 802.1X: decapsulated EAP packet (code=1 id=108 len=697) from RADIUS server: EAP-Request-TTLS (21)
+wlan0: STA 00:1d:e0:a2:3b:83 IEEE 802.1X: Sending EAP Packet (identifier 108)
+wlan0: STA 00:1d:e0:a2:3b:83 IEEE 802.1X: received EAP packet (code=2 id=108 len=204) from STA: EAP Response-TTLS (21)
+wlan0: RADIUS Sending RADIUS message to authentication server
+RADIUS message: code=1 (Access-Request) identifier=5 length=375
+   Attribute 1 (User-Name) length=6
+      Value: 'anon'
+   Attribute 32 (NAS-Identifier) length=16
+      Value: 'kanga-cso1g09e'
+   Attribute 30 (Called-Station-Id) length=30
+      Value: '00-18-0A-01-3F-38:notthebees'
+   Attribute 61 (NAS-Port-Type) length=6
+      Value: 19
+   Attribute 5 (NAS-Port) length=6
+      Value: 1
+   Attribute 31 (Calling-Station-Id) length=19
+      Value: '00-1D-E0-A2-3B-83'
+   Attribute 77 (Connect-Info) length=24
+      Value: 'CONNECT 54Mbps 802.11g'
+   Attribute 12 (Framed-MTU) length=6
+      Value: 1400
+   Attribute 79 (EAP-Message) length=206
+      Value: 02 6c 00 cc 15 00 16 03 01 00 86 10 00 00 82 00 80 a1 01 07 d0 77 71 8e 45 05 ce 71 d8 14 a9 26 45 af 24 0f 11 e7 91 4c f0 2d 0f ac e8 b8 75 c6 a4 77 2a ca 47 60 e0 18 1d 2f f4 35 a7 70 b6 1d c3 6c 53 56 96 cf f3 2b 9e 79 99 f0 2f ac 3c bd cf 5f 12 31 83 3f d6 86 3e 64 ee 00 1a 90 3a 74 a3 9d dd 0c 18 24 dd 7f 66 43 b8 f2 0c 27 5f e5 03 8c 40 da 09 11 82 de dd e7 8e 05 b7 3b e4 36 a5 11 3a f0 45 df 69 e0 02 0b 36 4b c5 d1 96 66 06 14 03 01 00 01 01 16 03 01 00 30 40 75 b9 75 8c 9e 9d 68 58 99 e3 1e 67 c8 98 c7 4c c3 61 50 bc 66 40 69 a9 b7 b0 b9 32 9a 55 10 75 9b 01 d0 38 14 8f c4 7c 12 df 9d 2f 96 c1 66
+   Attribute 24 (State) length=18
+      Value: 3b 66 43 b0 3f 0a 56 89 f6 36 58 de 1f 70 a1 be
+   Attribute 80 (Message-Authenticator) length=18
+      Value: dc 1c 03 d0 ba c1 70 fb 51 e8 ab de b9 b6 7b 8c
+wlan0: RADIUS Next RADIUS client retransmit in 3 seconds
+wlan0: RADIUS Received 127 bytes from RADIUS server
+wlan0: RADIUS Received RADIUS message
+RADIUS message: code=11 (Access-Challenge) identifier=5 length=127
+   Attribute 79 (EAP-Message) length=71
+      Value: 01 6d 00 45 15 80 00 00 00 3b 14 03 01 00 01 01 16 03 01 00 30 ce ce fe 4d 2c 96 df 33 23 0a bb c7 b6 7d 41 39 7f 08 df 47 82 6b 89 6e 9f 72 6e 8c 7d b3 7b 5a aa 0b 4d d3 cf c4 5c 8d 3f 9b 17 73 0d 7e 80 63
+   Attribute 80 (Message-Authenticator) length=18
+      Value: b8 1b a2 7d 90 2f 37 b8 de 91 79 8d 59 d3 2f 3f
+   Attribute 24 (State) length=18
+      Value: 3b 66 43 b0 3e 0b 56 89 f6 36 58 de 1f 70 a1 be
+wlan0: STA 00:1d:e0:a2:3b:83 RADIUS: Received RADIUS packet matched with a pending request, round trip time 0.04 sec
+wlan0: STA 00:1d:e0:a2:3b:83 IEEE 802.1X: decapsulated EAP packet (code=1 id=109 len=69) from RADIUS server: EAP-Request-TTLS (21)
+wlan0: STA 00:1d:e0:a2:3b:83 IEEE 802.1X: Sending EAP Packet (identifier 109)
+wlan0: STA 00:1d:e0:a2:3b:83 IEEE 802.1X: received EAP packet (code=2 id=109 len=112) from STA: EAP Response-TTLS (21)
+wlan0: RADIUS Sending RADIUS message to authentication server
+RADIUS message: code=1 (Access-Request) identifier=6 length=283
+   Attribute 1 (User-Name) length=6
+      Value: 'anon'
+   Attribute 32 (NAS-Identifier) length=16
+      Value: 'kanga-cso1g09e'
+   Attribute 30 (Called-Station-Id) length=30
+      Value: '00-18-0A-01-3F-38:notthebees'
+   Attribute 61 (NAS-Port-Type) length=6
+      Value: 19
+   Attribute 5 (NAS-Port) length=6
+      Value: 1
+   Attribute 31 (Calling-Station-Id) length=19
+      Value: '00-1D-E0-A2-3B-83'
+   Attribute 77 (Connect-Info) length=24
+      Value: 'CONNECT 54Mbps 802.11g'
+   Attribute 12 (Framed-MTU) length=6
+      Value: 1400
+   Attribute 79 (EAP-Message) length=114
+      Value: 02 6d 00 70 15 00 17 03 01 00 20 77 ce 6f 2d 6d af de 98 98 64 b6 bb bd 49 ea 03 d9 4d 39 2f 17 af 0f 20 0f 36 9d 53 a3 dd 0f 1f 17 03 01 00 40 81 7d c4 0a b2 63 91 e6 81 b7 6f c8 12 ce 8f a7 4c a3 42 bd 93 9e 18 7f 21 b3 d3 3f 4c 3a 80 d9 51 8d 10 dc 4f 2c 49 9e dd df 4c 98 09 23 a8 b6 6c b4 ea 1b 91 4a cb ba d0 97 62 55 f3 d9 9f bb
+   Attribute 24 (State) length=18
+      Value: 3b 66 43 b0 3e 0b 56 89 f6 36 58 de 1f 70 a1 be
+   Attribute 80 (Message-Authenticator) length=18
+      Value: a6 76 d0 20 d2 18 69 e8 19 75 6f 32 b9 f5 16 77
+wlan0: RADIUS Next RADIUS client retransmit in 3 seconds
+wlan0: RADIUS Received 166 bytes from RADIUS server
+wlan0: RADIUS Received RADIUS message
+RADIUS message: code=2 (Access-Accept) identifier=6 length=166
+   Attribute 26 (Vendor-Specific) length=58
+      Value: 00 00 01 37 11 34 87 5f 96 be 11 30 26 ce 9d 6c 4b c8 17 45 06 51 f9 0e 7b 58 26 ee 86 6d 70 87 82 ca 93 9f 73 a5 97 73 43 2d 52 4d ab 59 b3 43 c0 23 f7 9b af dd 21 2c
+   Attribute 26 (Vendor-Specific) length=58
+      Value: 00 00 01 37 10 34 88 ae eb 8c b3 76 85 83 39 dd 08 f7 89 2e 2f a8 83 51 b7 aa 59 44 fc 05 e3 c9 9c 1f 25 37 45 24 47 3b 49 d9 ae ca 1b e6 2b dd ad 43 4e 7d 71 ea ba 0f
+   Attribute 79 (EAP-Message) length=6
+      Value: 03 6d 00 04
+   Attribute 80 (Message-Authenticator) length=18
+      Value: 60 4c 94 80 de 0f ff ce 22 6d c0 f3 d1 ed 7f 82
+   Attribute 1 (User-Name) length=6
+      Value: 'anon'
+wlan0: STA 00:1d:e0:a2:3b:83 RADIUS: Received RADIUS packet matched with a pending request, round trip time 0.03 sec
+wlan0: STA 00:1d:e0:a2:3b:83 IEEE 802.1X: old identity 'anon' updated with User-Name from Access-Accept 'anon'
+wlan0: STA 00:1d:e0:a2:3b:83 IEEE 802.1X: decapsulated EAP packet (code=3 id=109 len=4) from RADIUS server: EAP Success
+wlan0: STA 00:1d:e0:a2:3b:83 IEEE 802.1X: Sending EAP Packet (identifier 109)
+wlan0: STA 00:1d:e0:a2:3b:83 WPA: sending 1/4 msg of 4-Way Handshake
+wlan0: STA 00:1d:e0:a2:3b:83 WPA: received EAPOL-Key frame (2/4 Pairwise)
+wlan0: STA 00:1d:e0:a2:3b:83 WPA: sending 3/4 msg of 4-Way Handshake
+wlan0: STA 00:1d:e0:a2:3b:83 WPA: received EAPOL-Key frame (4/4 Pairwise)
+wlan0: STA 00:1d:e0:a2:3b:83 WPA: pairwise key handshake completed (RSN)
+wlan0: AP-STA-CONNECTED 00:1d:e0:a2:3b:83
+wlan0: STA 00:1d:e0:a2:3b:83 IEEE 802.1X: authorizing port
+wlan0: STA 00:1d:e0:a2:3b:83 RADIUS: starting accounting session 50FC2C9F-00000000
+wlan0: STA 00:1d:e0:a2:3b:83 IEEE 802.1X: authenticated - EAP type: 21 (TTLS)
+wlan0: AP-STA-DISCONNECTED 00:1d:e0:a2:3b:83
+wlan0: STA 00:1d:e0:a2:3b:83 WPA: event 3 notification
+wlan0: STA 00:1d:e0:a2:3b:83 IEEE 802.11: deauthenticated
+wlan0: STA 00:1d:e0:a2:3b:83 MLME: MLME-DEAUTHENTICATE.indication(00:1d:e0:a2:3b:83, 3)
+wlan0: STA 00:1d:e0:a2:3b:83 MLME: MLME-DELETEKEYS.request(00:1d:e0:a2:3b:83)
+wlan0: STA 00:1d:e0:a2:3b:83 IEEE 802.11: authentication OK (open system)
+wlan0: STA 00:1d:e0:a2:3b:83 MLME: MLME-AUTHENTICATE.indication(00:1d:e0:a2:3b:83, OPEN_SYSTEM)
+wlan0: STA 00:1d:e0:a2:3b:83 MLME: MLME-DELETEKEYS.request(00:1d:e0:a2:3b:83)
+wlan0: STA 00:1d:e0:a2:3b:83 IEEE 802.11: authenticated
+wlan0: STA 00:1d:e0:a2:3b:83 IEEE 802.11: authentication OK (open system)
+wlan0: STA 00:1d:e0:a2:3b:83 WPA: event 0 notification
+wlan0: STA 00:1d:e0:a2:3b:83 MLME: MLME-AUTHENTICATE.indication(00:1d:e0:a2:3b:83, OPEN_SYSTEM)
+wlan0: STA 00:1d:e0:a2:3b:83 MLME: MLME-DELETEKEYS.request(00:1d:e0:a2:3b:83)
+wlan0: STA 00:1d:e0:a2:3b:83 IEEE 802.11: authenticated
+wlan0: STA 00:1d:e0:a2:3b:83 MLME: MLME-DEAUTHENTICATE.indication(00:1d:e0:a2:3b:83, 1)
+wlan0: STA 00:1d:e0:a2:3b:83 MLME: MLME-DELETEKEYS.request(00:1d:e0:a2:3b:83)
